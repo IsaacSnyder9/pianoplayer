@@ -1,0 +1,15 @@
+[package]
+name = "pianoplayer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+config = "0.15.22"
+eframe = "0.33.3"
+hound = "3.5.1"
+kira = "0.12.0"
+midir = "0.10.3"
+musicxml = "1.1.2"
+serde = { version = "1.0.228", features = ["derive"] }
+toml = "1.1.2"
+vibelang-sfz = "0.4.0"
